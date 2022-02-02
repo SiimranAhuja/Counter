@@ -1,0 +1,39 @@
+body {
+  background: hsl(210, 36%, 96%);
+  place-items: center;
+  min-height: 100vh;
+  display: grid;
+}
+.conatiner {
+  text-align: center;
+}
+h1 {
+  text-decoration: solid;
+  text-transform: capitalize;
+  font-size: 3rem;
+  text-align: center;
+}
+#value {
+  font-size: 6rem;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 165px;
+}
+.btn {
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 0.875rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin: 0.5rem;
+  background: transparent;
+  color: black;
+  padding: 0.375rem 0.75rem;
+  letter-spacing: 0.1rem;
+}
+.btn:hover {
+  color: white;
+  background: black;
+}
